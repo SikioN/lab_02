@@ -16,7 +16,7 @@
 
 Используя класс симуляции боя Battle, создать 2 команды покемонов (каждый покемон должен иметь имя) и запустить бой.
 
-![](src/pokemon/Dedenne.png)![](src/pokemon/Onix.png)![](src/pokemon/Steelix.png)![](src/pokemon/Eelektrik.png)![](src/pokemon/Eelektrik.png)![](src/pokemon/Eelektross.png)
+![](src/pokemon/Dedenne.png)![](src/pokemon/Onix.png)![](src/pokemon/Steelix.png)![](src/pokemon/Tynamo.png)![](src/pokemon/Eelektrik.png)![](src/pokemon/Eelektross.png)
 ___
 
 ### 2. Диаграмма классов реализованной объектной модели.
