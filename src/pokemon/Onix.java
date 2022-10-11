@@ -1,5 +1,8 @@
 package pokemon;
 
+import attack.Physical.BrutalSwing;
+import attack.Physical.StoneEdge;
+import attack.Status.Swagger;
 import ru.ifmo.se.pokemon.*;
 
 public class Onix extends Pokemon {
@@ -7,6 +10,9 @@ public class Onix extends Pokemon {
         super(name, level);
         this.setStats(35, 45, 160, 30, 45, 70);
         this.setType(Type.ROCK, Type.GROUND);
-//        this.addMove();
+        this.addMove(new Swagger());
+        this.addMove(new StoneEdge());
+        this.addMove(new BrutalSwing());
+
     }
 }
