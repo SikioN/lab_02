@@ -10,6 +10,7 @@ public class Onix extends Pokemon {
         super(name, level);
         this.setStats(35, 45, 160, 30, 45, 70);
         this.setType(Type.ROCK, Type.GROUND);
+
         this.addMove(new Swagger());
         this.addMove(new StoneEdge());
         this.addMove(new BrutalSwing());
