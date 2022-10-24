@@ -5,6 +5,7 @@ import static java.lang.Math.random;
 
 public class Main {
     public static void main(String[] args) {
+
         Battle battle = new Battle();
         Pokemon dedenne = new Dedenne("Деденне", random_level());
         Pokemon onix = new Onix("Оникс", random_level());
@@ -22,7 +23,7 @@ public class Main {
         battle.addFoe(eelektrik);
         battle.addFoe(eelektross);
 
-
+        battle.go();
     }
 
     static int random_level() {
