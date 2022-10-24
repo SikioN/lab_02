@@ -1,0 +1,58 @@
+digraph "lab_02" {
+
+splines  = ortho;
+fontname = "Inconsolata";
+
+node [colorscheme = ylgnbu4];
+edge [colorscheme = dark28, dir = both];
+
+BrutalSwing  [shape = record, label = "{ BrutalSwing |  }"];
+ChargeBeam   [shape = record, label = "{ ChargeBeam |  }"];
+Charm        [shape = record, label = "{ Charm |  }"];
+Coil         [shape = record, label = "{ Coil |  }"];
+DamageMove   [shape = record, label = "{ DamageMove |  }"];
+Dedenne      [shape = record, label = "{ Dedenne |  }"];
+Eelektrik    [shape = record, label = "{ Eelektrik |  }"];
+Eelektross   [shape = record, label = "{ Eelektross |  }"];
+Facade       [shape = record, label = "{ Facade |  }"];
+Main         [shape = record, label = "{ Main |  }"];
+Move         [shape = record, label = "{ Move |  }"];
+Onix         [shape = record, label = "{ Onix |  }"];
+PhysicalMove [shape = record, label = "{ PhysicalMove |  }"];
+Pokemon      [shape = record, label = "{ Pokemon |  }"];
+Rest         [shape = record, label = "{ Rest |  }"];
+Spark        [shape = record, label = "{ Spark |  }"];
+SpecialMove  [shape = record, label = "{ SpecialMove |  }"];
+StatusMove   [shape = record, label = "{ StatusMove |  }"];
+Steelix      [shape = record, label = "{ Steelix |  }"];
+StoneEdge    [shape = record, label = "{ StoneEdge |  }"];
+Swagger      [shape = record, label = "{ Swagger |  }"];
+Thunder      [shape = record, label = "{ Thunder |  }"];
+ThunderFang  [shape = record, label = "{ ThunderFang |  }"];
+ThunderWave  [shape = record, label = "{ ThunderWave |  }"];
+Tynamo       [shape = record, label = "{ Tynamo |  }"];
+
+BrutalSwing  -> PhysicalMove [color = "#000082", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "", headlabel = ""];
+ChargeBeam   -> SpecialMove  [color = "#000082", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "", headlabel = ""];
+Charm        -> StatusMove   [color = "#000082", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "", headlabel = ""];
+Coil         -> StatusMove   [color = "#000082", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "", headlabel = ""];
+DamageMove   -> Move         [color = "#000082", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "", headlabel = ""];
+Dedenne      -> Pokemon      [color = "#000082", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "", headlabel = ""];
+Eelektrik    -> Tynamo       [color = "#000082", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "", headlabel = ""];
+Eelektross   -> Eelektrik    [color = "#000082", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "", headlabel = ""];
+Facade       -> PhysicalMove [color = "#000082", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "", headlabel = ""];
+Onix         -> Pokemon      [color = "#000082", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "", headlabel = ""];
+PhysicalMove -> DamageMove   [color = "#000082", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "", headlabel = ""];
+Rest         -> StatusMove   [color = "#000082", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "", headlabel = ""];
+Spark        -> PhysicalMove [color = "#000082", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "", headlabel = ""];
+SpecialMove  -> DamageMove   [color = "#000082", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "", headlabel = ""];
+StatusMove   -> Move         [color = "#000082", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "", headlabel = ""];
+Steelix      -> Onix         [color = "#000082", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "", headlabel = ""];
+StoneEdge    -> PhysicalMove [color = "#000082", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "", headlabel = ""];
+Swagger      -> StatusMove   [color = "#000082", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "", headlabel = ""];
+Thunder      -> SpecialMove  [color = "#000082", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "", headlabel = ""];
+ThunderFang  -> PhysicalMove [color = "#000082", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "", headlabel = ""];
+ThunderWave  -> StatusMove   [color = "#000082", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "", headlabel = ""];
+Tynamo       -> Pokemon      [color = "#000082", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "", headlabel = ""];
+
+}

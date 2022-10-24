@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>D:/lab_02</OriginalElement>
+  <nodes>
+    <node x="-338.5" y="74.13573354875791">attack.Status.Charm</node>
+    <node x="-784.9398752969117" y="292.04166666666663">attack.Special.Thunder</node>
+    <node x="-1095.759278844022" y="-29.394670503597013">pokemon.Tynamo</node>
+    <node x="-1102.259278844022" y="127.77441896592006">pokemon.Eelektross</node>
+    <node x="165.0" y="74.13573354875791">attack.Status.ThunderWave</node>
+    <node x="-947.8495770704668" y="-132.39467050359707">ru.ifmo.se.pokemon.Pokemon</node>
+    <node x="-500.625" y="292.04166666666663">attack.Physical.BrutalSwing</node>
+    <node x="-94.25" y="292.04166666666663">attack.Physical.StoneEdge</node>
+    <node x="-361.5" y="162.70833333333331">ru.ifmo.se.pokemon.PhysicalMove</node>
+    <node x="-679.9553698890433" y="-190.10857777178194">Main</node>
+    <node x="58.875" y="291.54166666666663">attack.Physical.ThunderFang</node>
+    <node x="-869.3806997178577" y="162.70833333333331">ru.ifmo.se.pokemon.SpecialMove</node>
+    <node x="-1097.259278844022" y="49.189874231161525">pokemon.Eelektrik</node>
+    <node x="16.875" y="74.13573354875791">attack.Status.Swagger</node>
+    <node x="-371.5" y="-129.0">ru.ifmo.se.pokemon.Move</node>
+    <node x="-938.8495770704668" y="49.189874231161525">pokemon.Steelix</node>
+    <node x="-212.375" y="292.04166666666663">attack.Physical.Spark</node>
+    <node x="-209.375" y="74.13573354875791">attack.Status.Coil</node>
+    <node x="-121.75" y="-21.0">ru.ifmo.se.pokemon.StatusMove</node>
+    <node x="-340.5" y="292.04166666666663">attack.Physical.Facade</node>
+    <node x="-97.25" y="74.13573354875791">attack.Status.Rest</node>
+    <node x="-631.3020833333333" y="-21.0">ru.ifmo.se.pokemon.DamageMove</node>
+    <node x="-790.9398752969117" y="-29.394670503597013">pokemon.Dedenne</node>
+    <node x="-951.0648752969117" y="292.04166666666663">attack.Special.ChargeBeam</node>
+    <node x="-931.8495770704668" y="-29.394670503597013">pokemon.Onix</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="attack.Status.Coil" target="ru.ifmo.se.pokemon.StatusMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="-171.375" y="28.0" />
+      <point x="-58.25" y="28.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="attack.Physical.ThunderFang" target="ru.ifmo.se.pokemon.PhysicalMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="130.875" y="241.87499999999997" />
+      <point x="-292.0" y="241.87499999999997" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="attack.Special.Thunder" target="ru.ifmo.se.pokemon.SpecialMove" relationship="GENERALIZATION">
+      <point x="-0.0" y="-14.5" />
+      <point x="-732.9398752969117" y="229.62500000000006" />
+      <point x="-801.8806997178577" y="229.62500000000006" />
+      <point x="-801.8806997178577" y="191.70833333333331" />
+      <point x="32.0" y="14.5" />
+    </edge>
+    <edge source="pokemon.Steelix" target="pokemon.Onix" relationship="GENERALIZATION">
+      <point x="-47.0" y="-0.0" />
+      <point x="-891.8495770704668" y="63.689874231161525" />
+      <point x="-0.0" y="14.5" />
+    </edge>
+    <edge source="attack.Physical.BrutalSwing" target="ru.ifmo.se.pokemon.PhysicalMove" relationship="GENERALIZATION">
+      <point x="0.0" y="14.5" />
+      <point x="-436.125" y="241.87499999999997" />
+      <point x="-292.0" y="241.87499999999997" />
+      <point x="-292.0" y="162.70833333333331" />
+      <point x="-34.75" y="-14.5" />
+    </edge>
+    <edge source="attack.Status.Rest" target="ru.ifmo.se.pokemon.StatusMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="attack.Physical.StoneEdge" target="ru.ifmo.se.pokemon.PhysicalMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="-33.25" y="241.87499999999997" />
+      <point x="-292.0" y="241.87499999999997" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="attack.Special.ChargeBeam" target="ru.ifmo.se.pokemon.SpecialMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="-883.5648752969117" y="229.62500000000006" />
+      <point x="-801.8806997178577" y="229.62500000000006" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="pokemon.Tynamo" target="ru.ifmo.se.pokemon.Pokemon" relationship="GENERALIZATION">
+      <point x="-8.26279196357848" y="-14.5" />
+      <point x="-1044.259278844022" y="-29.394670503597013" />
+      <point x="-1044.259278844022" y="-56.831529173430795" />
+      <point x="-891.8495770704668" y="-56.831529173430795" />
+      <point x="-0.0" y="-14.5" />
+    </edge>
+    <edge source="attack.Physical.Facade" target="ru.ifmo.se.pokemon.PhysicalMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ru.ifmo.se.pokemon.StatusMove" target="ru.ifmo.se.pokemon.Move" relationship="GENERALIZATION">
+      <point x="-31.75" y="-14.5" />
+      <point x="-90.0" y="-73.96354166666669" />
+      <point x="-328.0" y="-73.96354166666669" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="attack.Status.Swagger" target="ru.ifmo.se.pokemon.StatusMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="72.875" y="28.0" />
+      <point x="-58.25" y="28.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="pokemon.Dedenne" target="ru.ifmo.se.pokemon.Pokemon" relationship="GENERALIZATION">
+      <point x="-55.0" y="-0.0" />
+      <point x="-742.2866970229607" y="-14.894670503597013" />
+      <point x="-742.2866970229607" y="-56.831529173430795" />
+      <point x="-891.8495770704668" y="-56.831529173430795" />
+      <point x="-0.0" y="14.5" />
+    </edge>
+    <edge source="ru.ifmo.se.pokemon.SpecialMove" target="ru.ifmo.se.pokemon.DamageMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="-801.8806997178577" y="137.10532949640287" />
+      <point x="-559.3020833333333" y="137.10532949640287" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="pokemon.Onix" target="ru.ifmo.se.pokemon.Pokemon" relationship="GENERALIZATION">
+      <point x="-3.1377919635784792" y="-14.5" />
+      <point x="-891.8495770704668" y="-29.394670503597013" />
+      <point x="-891.8495770704668" y="-109.50904896757174" />
+      <point x="-947.8495770704668" y="-109.50904896757174" />
+      <point x="-56.0" y="-0.0" />
+    </edge>
+    <edge source="ru.ifmo.se.pokemon.DamageMove" target="ru.ifmo.se.pokemon.Move" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="-559.3020833333333" y="-75.5" />
+      <point x="-328.0" y="-75.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="attack.Status.ThunderWave" target="ru.ifmo.se.pokemon.StatusMove" relationship="GENERALIZATION">
+      <point x="0.0" y="14.5" />
+      <point x="235.5" y="28.0" />
+      <point x="-58.25" y="28.0" />
+      <point x="-58.25" y="-21.0" />
+      <point x="31.75" y="-14.5" />
+    </edge>
+    <edge source="ru.ifmo.se.pokemon.PhysicalMove" target="ru.ifmo.se.pokemon.DamageMove" relationship="GENERALIZATION">
+      <point x="34.75" y="-14.5" />
+      <point x="-292.0" y="162.70833333333331" />
+      <point x="-292.0" y="137.10532949640287" />
+      <point x="-559.3020833333333" y="137.10532949640287" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="pokemon.Eelektrik" target="pokemon.Tynamo" relationship="GENERALIZATION">
+      <point x="-0.0" y="-14.5" />
+      <point x="-1044.259278844022" y="-14.894670503597013" />
+      <point x="-51.5" y="-0.0" />
+    </edge>
+    <edge source="attack.Status.Charm" target="ru.ifmo.se.pokemon.StatusMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="-292.0" y="28.0" />
+      <point x="-58.25" y="28.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="attack.Physical.Spark" target="ru.ifmo.se.pokemon.PhysicalMove" relationship="GENERALIZATION">
+      <point x="43.5" y="-0.0" />
+      <point x="-175.78622327790976" y="306.54166666666663" />
+      <point x="-175.78622327790976" y="241.87499999999997" />
+      <point x="-292.0" y="241.87499999999997" />
+      <point x="-292.0" y="177.20833333333331" />
+      <point x="-69.5" y="-0.0" />
+    </edge>
+    <edge source="pokemon.Eelektross" target="pokemon.Eelektrik" relationship="GENERALIZATION">
+      <point x="-0.0" y="-14.5" />
+      <point x="-1044.259278844022" y="63.689874231161525" />
+      <point x="53.0" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.904947916666667" showDependencies="false" x="-512.9576492661906" y="55.733417254676056" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

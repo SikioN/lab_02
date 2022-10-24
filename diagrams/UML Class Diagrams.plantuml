@@ -1,0 +1,55 @@
+@startuml
+
+!theme plain
+top to bottom direction
+skinparam linetype ortho
+
+class BrutalSwing
+class ChargeBeam
+class Charm
+class Coil
+class DamageMove
+class Dedenne
+class Eelektrik
+class Eelektross
+class Facade
+class Main
+class Move
+class Onix
+class PhysicalMove
+class Pokemon
+class Rest
+class Spark
+class SpecialMove
+class StatusMove
+class Steelix
+class StoneEdge
+class Swagger
+class Thunder
+class ThunderFang
+class ThunderWave
+class Tynamo
+
+BrutalSwing   -[#000082,plain]-^  PhysicalMove 
+ChargeBeam    -[#000082,plain]-^  SpecialMove  
+Charm         -[#000082,plain]-^  StatusMove   
+Coil          -[#000082,plain]-^  StatusMove   
+DamageMove    -[#000082,plain]-^  Move         
+Dedenne       -[#000082,plain]-^  Pokemon      
+Eelektrik     -[#000082,plain]-^  Tynamo       
+Eelektross    -[#000082,plain]-^  Eelektrik    
+Facade        -[#000082,plain]-^  PhysicalMove 
+Onix          -[#000082,plain]-^  Pokemon      
+PhysicalMove  -[#000082,plain]-^  DamageMove   
+Rest          -[#000082,plain]-^  StatusMove   
+Spark         -[#000082,plain]-^  PhysicalMove 
+SpecialMove   -[#000082,plain]-^  DamageMove   
+StatusMove    -[#000082,plain]-^  Move         
+Steelix       -[#000082,plain]-^  Onix         
+StoneEdge     -[#000082,plain]-^  PhysicalMove 
+Swagger       -[#000082,plain]-^  StatusMove   
+Thunder       -[#000082,plain]-^  SpecialMove  
+ThunderFang   -[#000082,plain]-^  PhysicalMove 
+ThunderWave   -[#000082,plain]-^  StatusMove   
+Tynamo        -[#000082,plain]-^  Pokemon      
+@enduml
