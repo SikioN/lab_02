@@ -20,7 +20,7 @@
 ___
 
 ### 2. Диаграмма классов реализованной объектной модели.
-![](diagrams/UML Class Diagrams.png)
+![](diagrams/UML Class Diagrams Dark.png)
 ___
 
 ### 3. Исходный код программы:
