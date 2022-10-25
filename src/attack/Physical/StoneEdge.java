@@ -11,6 +11,6 @@ public class StoneEdge extends PhysicalMove {
 
     @Override
     protected String describe() {
-        return "применяет Stone Edge\uD83E\uDEA8";
+        return "применяет Stone Edge⛰";
     }
 }
