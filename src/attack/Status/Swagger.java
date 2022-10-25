@@ -10,6 +10,13 @@ public class Swagger extends StatusMove {
     /**Swagger confuses the target and raises its Attack by two stages.**/
 
     @Override
+    protected void applyOppEffects(Pokemon pokemon) {
+        pokemon.confuse();
+        pokemon.setMod(Stat.ATTACK, 2);
+        super.applyOppEffects(pokemon);
+    }
+
+    @Override
     protected String describe() {
         return "применяет Swagger♠";
     }
