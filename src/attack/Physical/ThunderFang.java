@@ -14,7 +14,6 @@ public class ThunderFang extends PhysicalMove {
     protected void applyOppEffects(Pokemon pokemon) {
         Effect effect = new Effect().chance(0.1).condition(Status.PARALYZE);
         pokemon.addEffect(effect);
-        super.applyOppEffects(pokemon);
     }
 
     @Override

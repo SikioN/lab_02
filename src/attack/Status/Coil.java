@@ -14,7 +14,6 @@ public class Coil extends StatusMove {
         pokemon.setMod(Stat.ATTACK, 1);
         pokemon.setMod(Stat.DEFENSE, 1);
         pokemon.setMod(Stat.ACCURACY, 1);
-        super.applySelfEffects(pokemon);
     }
 
         @Override

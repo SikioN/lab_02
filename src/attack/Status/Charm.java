@@ -12,7 +12,6 @@ public class Charm extends StatusMove {
     @Override
     protected void applyOppEffects(Pokemon pokemon){
         pokemon.setMod(Stat.ATTACK, -2);
-        super.applyOppEffects(pokemon);
     }
 
     @Override

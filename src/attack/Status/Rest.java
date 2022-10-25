@@ -15,7 +15,6 @@ public class Rest extends StatusMove {
         Effect effect = new Effect().condition(Status.SLEEP);
         int full_hp = (int)Math.ceil(pokemon.getStat(Stat.HP) - pokemon.getHP());
         pokemon.setMod(Stat.HP, -full_hp);
-        pokemon.addEffect(effect);
     }
 
     @Override

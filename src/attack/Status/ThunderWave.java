@@ -13,7 +13,6 @@ public class ThunderWave extends StatusMove {
     protected void applyOppEffects(Pokemon pokemon) {
         Effect effect = new Effect().condition(Status.PARALYZE).turns(-1);
         pokemon.addEffect(effect);
-        super.applyOppEffects(pokemon);
     }
 
     @Override
